@@ -1,0 +1,19 @@
+.header {
+  border: 1px solid rgba(0, 0, 0, 0.123);
+  box-shadow: 0px 1px 10px 0px #00000082;
+  gap: 20px;
+  justify-content: center;
+  padding: 0 150px;
+}
+.header__item {
+  color: rgba(0, 0, 0, 0.61);
+  cursor: pointer;
+  font-size: 16px;
+}
+.header__item.active {
+  color: rgb(0, 0, 0);
+}
+.header__logo {
+  padding-top: 20px;
+  width: 180px;
+}
